@@ -1,5 +1,7 @@
 package mate.academy
 
+const val ONE = 1
+
 fun removeChars(str: String): String {
-    return str.drop(1).dropLast(1)
+    return str.drop(ONE).dropLast(ONE)
 }
